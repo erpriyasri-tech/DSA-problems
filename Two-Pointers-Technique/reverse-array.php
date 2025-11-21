@@ -7,7 +7,6 @@ $count = count($array);
 
 $left = 0;
 $right = $count-1;
-$reverse = [];
 while($left < $right){
     $temp = $array[$left];
     $array[$left] = $array[$right];

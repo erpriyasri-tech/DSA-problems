@@ -6,10 +6,10 @@ function findAllDuplicates(&$array) {
     $duplicates = [];
 
     for ($i = 0; $i < count($array); $i++) {
-        $index = abs($array[$i]);
+        $index = abs($array[$i])-1; 
 
         if ($array[$index] < 0) {
-            $duplicates[] = $index;
+            $duplicates[] = $index+1;
         } else {
             $array[$index] = -$array[$index];
         }

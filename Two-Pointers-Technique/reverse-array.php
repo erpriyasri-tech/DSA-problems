@@ -15,5 +15,7 @@ while($left < $right){
     $right--;
 
 }
-echo implode(",", $array);
+
+echo "[". implode(",", $array). "]";
+
 ?>

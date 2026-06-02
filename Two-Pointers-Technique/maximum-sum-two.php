@@ -22,7 +22,7 @@ while($left <$right){
          $left++; 
         } else {
         $right--; 
-        }
+        } 
 }
 echo "Pair: (" . implode(", ", $pair) . "), Sum = $maxSum";
 ?>

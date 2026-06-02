@@ -2,7 +2,7 @@
 function firstOccurrence($arr, $x) {
     $start = 0;
     $end = count($arr) - 1;
-    $result = -1;
+    $result = -1 ;
     while ($start <= $end) {
        // $mid = intdiv($low + $high, 2);
         $mid = floor(($start + $end)/2);
